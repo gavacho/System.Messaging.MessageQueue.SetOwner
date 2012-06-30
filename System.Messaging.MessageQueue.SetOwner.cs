@@ -1,11 +1,10 @@
-using System;
 using System.ComponentModel;
 using System.Runtime.InteropServices;
 using System.Security.Principal;
 
 namespace System.Messaging
 {
-    public static partial class MessageQueueExtensions
+	public static partial class MessageQueueExtensions
 	{
 		private static class Win32
 		{
